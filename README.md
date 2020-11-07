@@ -15,8 +15,9 @@ OR
 ## Run Unit Tests
 1. Run `npm test`
 
-### Design Notes
-Before I started the project, I've written the following design notes:
+### Design
+Before I started the project, I've created the following design  
+and written the following design notes.:
 1. UI Mocks
 Main Page:
 <p align="center">
@@ -35,6 +36,35 @@ Movie Details:
 <p align="center">
   <img src="docs/next-movies-class-diagram.png">
 </p>
+
+### Design Notes
+1. Images Lazy Loading (infinte scroll paging and native browser)
+2. UI Routing - url will be updated with params and query params 
+2.1. Thus supports link sharing
+3. Search criterias: title, description, rating, runtime, year  
+3.1. filter usually occures on server api however current api does not expose filtering  
+Thus it will be done on client
+4. State managment library (VueX) is overhead in such app therefore There is no need for that
+5. Stuff to consider on API results:  
+5.1. There are empty fields such as "rating", "runtime" etc   
+Therefore need to remove when presenting if empty
+5.2. Movie description and title are html, thus should be formatted
+6. Window resize support
+7. Hover will animate enlarged photo to provide flavor and give sense of responsive UI
+8. For the sake of the excercise, use as less as bootsrap
+9. Use imdb id to provide link to the movie on imdb website
+  
+### Libraries  
+1. Infinite scroll: https://github.com/ElemeFE/vue-infinite-scroll
+2. Search bar: https://github.com/trevoreyre/autocomplete
+3. Vue slider: https://github.com/NightCatSama/vue-slider-component
+4. Vue Html Format and Locale: https://kazupon.github.io/vue-i18n/introduction.html
+5. Jest testing Library: https://jestjs.io/
+6. Jest fetch mock: https://github.com/jefflau/jest-fetch-mock#typescript-guide
+
+
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -69,7 +69,7 @@ Therefore need to remove when presenting if empty
 4. When loading more images, display loading icon
 5. Refactore get movies by criterias to smaller set of functions
 6. Replace self implemented time formatter with third pary such as moment
-7. write unit tests to other components
+7. Write unit tests to other components
 
 ### Future Features (next versions)
 1. Add Login user and save favorites
@@ -77,6 +77,7 @@ Therefore need to remove when presenting if empty
 3. Considering api provides - filter on server
 4. Considering api provides - filter by genres
 5. Sorting capability
+6. Locale to Henrew and other languges if required
 
 
 

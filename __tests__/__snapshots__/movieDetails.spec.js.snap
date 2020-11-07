@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mounted MovieDetails renders released 1995, no rating and no runtime as '1995' 1`] = `
+<div
+  class="overlay"
+>
+  <div
+    class="movie-details-window"
+  >
+    <div
+      class="movie-details-container"
+    >
+      <div
+        class="image-block"
+      >
+        <img
+          alt="test image"
+        />
+      </div>
+       
+      <div
+        class="movie-details"
+      >
+        <div
+          class="close-movie-details"
+        >
+          <h3
+            class="go-back-button"
+          >
+            X
+          </h3>
+        </div>
+         
+        <h2
+          class="movie-name"
+        >
+          batman
+        </h2>
+         
+        <h3>
+          1995
+        </h3>
+         
+        <p
+          class="synopsis"
+        >
+          batman
+        </p>
+         
+        <a
+          href="https://www.imdb.com/title/tt0062622/"
+          target="_blank"
+        >
+          IMDB
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

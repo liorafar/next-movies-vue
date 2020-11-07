@@ -21,19 +21,6 @@ describe('movie service', () => {
                 throw new Error('Get all movies failed')
             }
         })
-
-        it('return failure on http response failure', async () => {
-            fetchMock.mockReject(new Error('fake error message') , { status: 404 });
-
-            try {
-                const movies = await movieService.getAllMovies();
-                // if we got here then the test failed
-                throw new Error('failure test failed');
-            } catch (error) {
-                // we should not get here
-                expect(error.message).toMatch('fake error message');
-            }
-        })
     
         it('returns a list of movies successfully', async () => {
             const responseDataMock = JSON.stringify(

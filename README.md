@@ -62,7 +62,21 @@ Therefore need to remove when presenting if empty
 5. Jest testing Library: https://jestjs.io/
 6. Jest fetch mock: https://github.com/jefflau/jest-fetch-mock#typescript-guide
 
+### To Do (leftovers)
+1. Add year filter
+2. Format runtime filter from minutes to hours and minutes
+3. Add rating stars
+4. When loading more images, display loading icon
+5. Refactore get movies by criterias to smaller set of functions
+6. Replace self implemented time formatter with third pary such as moment
+7. write unit tests to other components
 
+### Future Features (next versions)
+1. Add Login user and save favorites
+2. Considering api provides - display trailer
+3. Considering api provides - filter on server
+4. Considering api provides - filter by genres
+5. Sorting capability
 
 
 

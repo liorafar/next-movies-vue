@@ -1,7 +1,9 @@
 # next-movies-vue
 
 ## Prerequisites
-1. Run the following server with Cors enabled if runs on localhost
+1. NPM: https://www.npmjs.com/get-npm
+2. Vue: https://vuejs.org/
+3. Run the following server with Cors enabled if runs on localhost
    https://github.com/next-insurance/next-test
 
 ## Installation

@@ -18,17 +18,13 @@ OR
 1. Run `npm test`
 
 ### Design
-Before I started the project, I've created the following design  
-and written the following design notes.:
-1. UI Mocks
-Main Page:
+1. UI Mocks: Main Page:
 <p align="center">
   <img src="docs/Next-movies-vue-web-mock-main.png">
 </p>
 <br/>
 <br/>
-2. 1. UI Mocks
-Movie Details:
+2. 1. UI Mocks: Movie Details:
 <p align="center">
   <img src="docs/Next-movies-vue-web-mock-movie-details.png">
 </p>
